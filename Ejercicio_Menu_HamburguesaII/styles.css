@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+    /*Estilos para el icono del menu */
+    .icono-menu{
+    width: 2.5rem;
+     margin:1.5rem 1.5rem; 
+     position:relative;
+     z-index: 10; 
+    }
+    .icono-menu img{
+     vertical-align: top;
+     width: 40px;
+     cursor: pointer;  
+    }
+    /*Estilos para el contenedor del Menù*/
+    .cont-menu{
+    background-color: rgb(42,42,42);
+     box-shadow: 2px 0px 5px 2px rgb(66,66,66);
+     width: 400px;
+     height: 100vh;
+     position: absolute;
+     top: 0;
+     left: 0;
+     transition: all .5s ease;
+    }
+    /* Estilos por agregar en JavaScript*/
+     .active{
+     transform: translate(-600px);
+     }
+     .opacity{
+     background-color: rgba(0,0,0,0.5);
+     transition: all .5s ease;
+     }
+    /*Estilos para el listado del menu*/
+    .cont-menu ul{
+     padding: 100px 0px 20px 0px;
+     list-style: none;
+    }
+    .cont-menu ul li{ 
+     color: aliceblue;
+     display: block;
+     font-size: 25px;
+     text-decoration: none;
+     padding: 20px 50px;
+     cursor: pointer;
+    }
+    .cont-menu ul li:hover{
+     background-color: rgb(228,75,255 );
+     color:rgb(42,42,42);
+    }

@@ -1,200 +1,266 @@
 *{margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-#container{
-    margin-left: 1rem;
-    margin-top: 0.5rem;
-    max-width: 92.3rem;
-}
-.mainContainer{
-    display: flex;
-    flex-basis: auto;
-    width: 100%;    
-}
-.banner{
-    min-height: 3rem;    
-    background-color: black;
-}
-.barraNav{
-    background-color: blueviolet;
-    min-height: 2.5rem;
-}
+    padding: 0;
+    box-sizing: border-box;
+  }
+  #container{
+      margin-left: 1rem;
+      margin-top: 0.5rem;
+      max-width: 92.3rem;
+  }
+  .mainContainer{
+      display: flex;
+      flex-basis: auto;
+      width: 100%;    
+  }
+  .banner{
+      min-height: 3rem;    
+      background-color: black;
+  }
+  .barraNav{
+      background-color: blueviolet;
+      min-height: 2.5rem;
+  }
+  
+  main{
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      height: auto;
+      background-color: yellow;        
+  }
+  
+  ul{
+      display: flex;
+      flex-direction: row;
+      flex-wrap:wrap ;
+      flex-basis: 1;
+      margin-right: 40px;
+      }
+  li img{
+     margin: -5px;
+  }    
+  ul li{
+      list-style: none;
+  }
+  .cardsContainer{
+      
+      max-width: 73.3rem;
+      max-height: 77.1rem;
+      
+  }
+  .card{      
+      max-width: 320px;
+      max-height: 320px;
+      margin-top: 2.5rem;
+      margin-left: 1rem;
+  }
+  .containerFooter{
+      max-height: 10rem;
+      position: relative;
+      top: 90.9rem;
+  }
+  /*--------------------------------------------------*/  
+  @media screen and (max-width:320px){
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }   
+    #container{
+          max-width:100%;
+          max-height: 100%;        
+          font-family: 'Rubik', sans-serif;
+      }
+      .banner{
+          /*FONDO*/
+          background-color: black;        
+          min-height: 9.5rem;
+          max-width: 100%;
+      }
+      .container-img-isotype{
+        width: 2.5rem;
+        position: absolute;
+        top: 2rem;
+        left: 9.5rem;
+      }
+      .container-img-isotype img{
+        width: 2.5rem;
+        
+      }
+      .banner img{ 
+          width: 1.5rem;
+          margin-left: 7rem;
+          margin-top: 1rem;
+          padding: 0.2rem;
+      }
+      .bannerText {
+          font-family: 'Shantell Sans', cursive;
+          margin-left: 7rem;
+          margin-top: -5.5rem;
+          color:blanchedalmond;        
+      }
+      .cardsContainer{
+        max-width: 73.3rem;
+        max-height: 100%;
+        background-color: black;   
 
-main{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    height: auto;
-    background-color: yellow;        
-}
-
-ul{
-    display: flex;
-    flex-direction: row;
-    flex-wrap:wrap ;
-    flex-basis: 1;
-    margin-right: 40px;
     }
-li img{
-   margin: -5px;
-}    
-ul li{
-    list-style: none;
-}
-.cardsContainer{
-    
-    max-width: 73.3rem;
-    max-height: 77.1rem;
-    
-}
-.card{
-    
-    max-width: 360px;
-    max-height: 360px;
-    margin-top: 2.5rem;
-    margin-left: 1rem;
-}
-.containerFooter{
-    max-height: 10rem;
-    position: relative;
-    top: 90.9rem;
-}
-
-@media screen and (max-width:320px){
-     #container{
-        max-width:100%;
-        max-height: 100%;        
-        font-family: 'Rubik', sans-serif;
-    }
-    .banner{
-        /*FONDO*/
-        background-color: black;        
-        min-height: 9.5rem;
-        max-width: 100%;
-    }
-    .banner img{ 
-        width: 3.5rem;
-        margin-left: 7rem;
+      ul li{
+        color: aliceblue;
+      }
+       .barraNav{
+          max-width:100%;
+          max-height: 20px;                
+      }
+      .divAsideContainer{
+          max-width: 100%;
+          background-color:white; 
+          padding-left: 1rem;          
+      }
+      .asideDivInputText .inputText{
+          border-radius: 4px;
+          max-height: 20px;
+          margin-left: 0rem;          
+      }
+      aside .buscar {
+          padding-top: 0.5rem;
+          font-size: 10px;
+          font-weight: bold;
+          margin-left: 0;
+      }
+      aside .ordenarPor{         
+          padding-top: 0.5rem;
+          font-size: 10px;
+          font-weight: bold;
+          margin-left: 0;
+      }
+      aside .precio {
+          padding-top: 0.5rem;
+          font-size: 10px;
+          font-weight: bold;
+          margin-left: 0;
+         
+      }
+      aside .minimo {
+          display: inline;
+          padding-top: 0.5rem;
+          font-size: 10px;
+          font-weight: bold;
+          margin-left: 1rem;
+      }
+      aside .maximo{
+          display: inline;
+          padding-top: 0.5rem;
+          font-size: 10px;
+          font-weight: bold;
+          margin-left: 1rem;
+      }
+      aside .inputNumberMin{
+          border-radius: 5px;
+          width:2rem ;
+          margin-left: 0;
+          margin-top: 1rem;
+      }
+      aside .inputNumberMax{
+          border-radius: 5px;
+          width:2rem;
+          margin-left: 0;
+      }
+      aside .filtrar{
+              color: black;
+              padding-top: 0.5rem;
+              font-size: 10px;
+              font-weight: bold;
+              margin-left: 0;        
+      }
+      select{
+          margin-left: -1.5;
+          outline: 1px solid black;
+      }
+      .nuevos{
+          color: black;
+          padding-top: 0.5rem;
+          font-size: 10px;
+          font-weight: bold;
+          margin-left: 1rem;        
+      }
+      .ofertas{
+          color: black;
+          padding-top: 0.5rem;
+          font-size: 10px;
+          font-weight: bold;
+          margin-left: 1rem;        
+      }
+      .edicion{
+          color: black;
+          padding-top: 0.5rem;
+          font-size: 10px;
+          font-weight: bold;
+          margin-left: 1rem;        
+      }
+      .favoritos{
+          color: black;
+          padding-top: 0.5rem;
+          font-size: 10px;
+          font-weight: bold;
+          margin-left: 1rem;        
+      }
+      ul li img{
+        width: 300px;
+        margin: 2px;
+      }
+      ul li a{
+        cursor: pointer;
+        color: antiquewhite;
+        text-decoration: none;
+      }
+     .card{
+        margin-left: -15px;
+        width: 100%;           
+      }       
+     .texto-card{
+        width: 4rem;
+        margin-left: 13.5rem;
         margin-top: 1rem;
-        padding: 0.2rem;        
-    }
-    .bannerText {
-        font-family: 'Shantell Sans', cursive;
-        margin-left: 6rem;
-        margin-top: -5.5rem;
-        color:blanchedalmond;        
-    }
-     .barraNav{
-        max-width:100%;
-        max-height: 20px;                
-    }
-    .divAsideContainer{
-        max-width: 100%;
-        background-color:white; 
-        padding-left: 1rem;        
-        
-    }
-    .asideDivInputText .inputText{
-        border-radius: 4px;
-        max-height: 20px;
-        margin-left: 1rem;
-        
-    }
-    aside .buscar {
-        padding-top: 0.5rem;
-        font-size: 10px;
+        background-color: red;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 0.7rem;
         font-weight: bold;
-        margin-left: 1rem;
+     }
+      .mainContainer{
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          max-width: 100%;
+          background-color:whitesmoke;
+      }
+      .cardsContainer{
+        max-width: 73.3rem;
+        max-height: 100%;
+        background-color:white;   
     }
-    aside .ordenarPor{
-        
-        padding-top: 0.5rem;
-        font-size: 10px;
-        font-weight: bold;
-        margin-left: 1rem;
-    }
-    aside .precio {
-        padding-top: 0.5rem;
-        font-size: 10px;
-        font-weight: bold;
-        margin-left: 1rem;
-    }
-    aside .minimo {
-        display: inline;
-        padding-top: 0.5rem;
-        font-size: 10px;
-        font-weight: bold;
-        margin-left: 1rem;
-    }
-    aside .maximo{
-        display: inline;
-        padding-top: 0.5rem;
-        font-size: 10px;
-        font-weight: bold;
-        margin-left: 1rem;
-    }
-    aside .inputNumberMin{
-        border-radius: 5px;
-        width:2rem ;
-        margin-left: 0.5rem;
-        margin-top: -3rem;
-    }
-    aside .inputNumberMax{
-        border-radius: 5px;
-        width:2rem ;
-        margin-left: 0.5rem;
-    }
-    aside .filtrar{
-            color: black;
-            padding-top: 0.5rem;
-            font-size: 10px;
-            font-weight: bold;
-            margin-left: 1rem;        
-    }
-    select{
-        margin-left: 1rem;
-        outline: 1px solid black;
-    }
-    .nuevos{
-        color: black;
-        padding-top: 0.5rem;
-        font-size: 10px;
-        font-weight: bold;
-        margin-left: 1rem;        
-    }
-    .ofertas{
-        color: black;
-        padding-top: 0.5rem;
-        font-size: 10px;
-        font-weight: bold;
-        margin-left: 1rem;        
-    }
-    .edicion{
-        color: black;
-        padding-top: 0.5rem;
-        font-size: 10px;
-        font-weight: bold;
-        margin-left: 1rem;        
-    }
-    .favoritos{
-        color: black;
-        padding-top: 0.5rem;
-        font-size: 10px;
-        font-weight: bold;
-        margin-left: 1rem;        
-    }
-     
-    .mainContainer{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        max-width: 100%;
-    }
-    .containerFooter{
-        display: flex;
-        flex-direction: column;
-        margin-top: 160px;
-        max-width: 99%;        
-    }    
-}
+
+      .containerFooter{
+          display: flex;
+          flex-direction: column;
+          margin-top: -91rem;
+          max-width: 99%;
+          height: 4rem;
+          background-color: black;        
+      }    
+      .containerFooter img{
+        width: 2.5rem;
+        position: absolute;
+        top: 1.7rem;
+        left: .5rem;
+
+      }
+      .foot-bannerText{
+        color:aliceblue;
+        font-size:1rem;
+        position: relative;
+        left: 3.5rem;
+        top:2.5rem;
+      }
+  }
