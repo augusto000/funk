@@ -263,4 +263,21 @@
         left: 3.5rem;
         top:2.5rem;
       }
+      ul li p{
+        color:white;
+        font-size: 0.6rem;
+        margin-left: 0.3rem;
+      }
+      .shop{
+        width: 30px;
+        height: 20px;
+        margin-top: 0.8rem;
+        margin-left: 0.5rem;
+        margin-bottom: 0;
+      }
+      .registrarse{
+        height: 20px;
+        margin-top: 3rem;
+        margin-left: 0.5rem;
+      }
   }
