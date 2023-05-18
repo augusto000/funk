@@ -1,7 +1,7 @@
 *{margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+ }
   #container{
       margin-left: 1rem;
       margin-top: 0.5rem;
@@ -48,9 +48,10 @@
       max-height: 77.1rem;
       
   }
-  .card{      
-      max-width: 320px;
-      max-height: 320px;
+  .card{
+      
+      max-width: 360px;
+      max-height: 360px;
       margin-top: 2.5rem;
       margin-left: 1rem;
   }
@@ -59,16 +60,15 @@
       position: relative;
       top: 90.9rem;
   }
-  /*--------------------------------------------------*/  
-  @media screen and (max-width:320px){
-    *{
-        margin: 0;
+  
+  @media screen and (min-width:320px){
+      *{margin: 0;
         padding: 0;
         box-sizing: border-box;
-    }   
-    #container{
-          max-width:100%;
-          max-height: 100%;        
+       } 
+      #container{
+          max-width:90%;
+          height: 264.5rem;        
           font-family: 'Rubik', sans-serif;
       }
       .banner{
@@ -92,6 +92,7 @@
           margin-left: 7rem;
           margin-top: 1rem;
           padding: 0.2rem;
+
       }
       .bannerText {
           font-family: 'Shantell Sans', cursive;
@@ -115,12 +116,14 @@
       .divAsideContainer{
           max-width: 100%;
           background-color:white; 
-          padding-left: 1rem;          
+          padding-left: 1rem;        
+          
       }
       .asideDivInputText .inputText{
           border-radius: 4px;
           max-height: 20px;
-          margin-left: 0rem;          
+          margin-left: 0rem;
+          
       }
       aside .buscar {
           padding-top: 0.5rem;
@@ -205,29 +208,20 @@
           font-weight: bold;
           margin-left: 1rem;        
       }
-      ul li img{
-        width: 300px;
-        margin: 2px;
+      ul{
+        height: 100%;
+        width: 320px;
+        margin-left: -.5rem;
+        margin-right: 0;
       }
-      ul li a{
-        cursor: pointer;
-        color: antiquewhite;
-        text-decoration: none;
+      ul li img{
+        width: 320px;
+        margin-left: -31px
       }
      .card{
-        margin-left: -15px;
-        width: 100%;           
+        margin-left: -5px;
+        width: 95%;           
       }       
-     .texto-card{
-        width: 4rem;
-        margin-left: 13.5rem;
-        margin-top: 1rem;
-        background-color: red;
-        color: whitesmoke;
-        text-align: center;
-        font-size: 0.7rem;
-        font-weight: bold;
-     }
       .mainContainer{
           display: flex;
           flex-direction: column;
@@ -236,7 +230,7 @@
           background-color:whitesmoke;
       }
       .cardsContainer{
-        max-width: 73.3rem;
+        max-width: 75.3rem;
         max-height: 100%;
         background-color:white;   
     }
@@ -245,24 +239,38 @@
           display: flex;
           flex-direction: column;
           margin-top: -91rem;
-          max-width: 99%;
-          height: 4rem;
+          max-width: 18rem;
+          height: 7rem;
           background-color: black;        
       }    
       .containerFooter img{
-        width: 2.5rem;
+        width: 3.3rem;
         position: absolute;
-        top: 1.7rem;
-        left: .5rem;
+        top: 2.3rem;
+        left: 13rem;
 
       }
       .foot-bannerText{
         color:aliceblue;
-        font-size:1rem;
+        font-size:0.5rem;
         position: relative;
-        left: 3.5rem;
-        top:2.5rem;
+        left: 4.8rem;
+        top:5.7rem;
       }
+      .containerFooter{
+        height: 8rem;
+        
+      }
+      .texto-card{
+        width: 3.5rem;
+        margin-left: 12.5rem;
+        margin-top: 1rem;
+        background-color: red;
+        color: whitesmoke;
+        text-align: center;
+        font-size: 0.7rem;
+        font-weight: bold;
+     }
       ul li p{
         color:white;
         font-size: 0.6rem;
@@ -272,7 +280,7 @@
         width: 30px;
         height: 20px;
         margin-top: 0.8rem;
-        margin-left: 0.5rem;
+        margin-left: 0.2rem;
         margin-bottom: 0;
       }
       .registrarse{
@@ -280,4 +288,20 @@
         margin-top: 3rem;
         margin-left: 0.5rem;
       }
-  }
+      .cont-registrarse{
+        height: 18px;
+        width: 70px;
+        margin-top: -20px;
+        margin-left: -36px;
+      }
+    }
+    @media screen and (min-width: 768px) {
+        #container{
+            width:100%;
+            outline: 1px solid blue;
+        }
+        .container-img-isotype{
+            background-color: yellowgreen;
+        }
+    }
+
