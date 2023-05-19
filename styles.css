@@ -310,16 +310,16 @@
             outline: 1px solid blue;
         }        
         .container-img-isotype{
-            margin-left: 6rem;            
+            margin-left: 5.5rem;            
         }
         .bannerText p{
-           margin-left: 5.5rem;
+           margin-left: 5rem;
         }
         .nav-link{
             color:white !important;
           }
         ul{
-            margin-left: 2rem;
+            margin-left: 2.5rem;
         }  
     }
     @media screen and (min-width: 768px) {
@@ -334,4 +334,3 @@
             color:white !important;
           }
     }
-
