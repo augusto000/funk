@@ -304,6 +304,21 @@
       }
       
     }
+    @media screen and (min-width: 413px) {
+        #container{
+            width:100%;
+            outline: 1px solid blue;
+        }
+        .container-img-isotype{
+            margin-left: 6rem;            
+        }
+        .bannerText p{
+           margin-left: 5.5rem;
+        }
+        .nav-link{
+            color:white !important;
+          }
+    }
     @media screen and (min-width: 768px) {
         #container{
             width:100%;
