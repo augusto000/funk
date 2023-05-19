@@ -67,7 +67,7 @@
         box-sizing: border-box;
        } 
       #container{
-          max-width:90%;
+          max-width:100%;
           height: 264.5rem;        
           font-family: 'Rubik', sans-serif;
       }
@@ -239,28 +239,24 @@
           display: flex;
           flex-direction: column;
           margin-top: -91rem;
-          max-width: 18rem;
-          height: 7rem;
+          max-width: 100%;
+          height: 8rem;
           background-color: black;        
       }    
       .containerFooter img{
         width: 3.3rem;
         position: absolute;
         top: 2.3rem;
-        left: 13rem;
+        left: 14.5rem;
 
       }
       .foot-bannerText{
-        color:aliceblue;
+        color:white;
         font-size:0.5rem;
         position: relative;
         left: 4.8rem;
-        top:5.7rem;
-      }
-      .containerFooter{
-        height: 8rem;
-        
-      }
+        top: -.5rem;
+      }      
       .texto-card{
         width: 3.5rem;
         margin-left: 12.5rem;
@@ -279,20 +275,32 @@
       .shop{
         width: 30px;
         height: 20px;
-        margin-top: 0.8rem;
+        margin-top: 2.5rem;
         margin-left: 0.2rem;
         margin-bottom: 0;
       }
       .registrarse{
         height: 20px;
-        margin-top: 3rem;
+        margin-top: 5rem;
         margin-left: 0.5rem;
       }
       .cont-registrarse{
         height: 18px;
         width: 70px;
-        margin-top: -20px;
-        margin-left: -36px;
+        margin-top: -22px;
+        margin-left: -38px;
+      }
+      .cont-ingresar{
+        height: 18px;
+        width: 70px;
+        margin-top: 4.7rem;
+        margin-left: -67px;
+      }
+      .cont-contacto{
+        height: 18px;
+        width: 70px;
+        margin-top: 5.7rem;
+        margin-left: -70px;
       }
     }
     @media screen and (min-width: 768px) {
@@ -301,7 +309,7 @@
             outline: 1px solid blue;
         }
         .container-img-isotype{
-            background-color: yellowgreen;
+            background-color: white;
         }
     }
 
