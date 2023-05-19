@@ -308,7 +308,7 @@
         #container{
             width:100%;
             outline: 1px solid blue;
-        }
+        }        
         .container-img-isotype{
             margin-left: 6rem;            
         }
@@ -318,6 +318,9 @@
         .nav-link{
             color:white !important;
           }
+        ul{
+            margin-left: 2rem;
+        }  
     }
     @media screen and (min-width: 768px) {
         #container{
@@ -331,3 +334,4 @@
             color:white !important;
           }
     }
+
