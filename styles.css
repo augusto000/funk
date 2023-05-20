@@ -308,19 +308,40 @@
         #container{
             width:100%;
             outline: 1px solid blue;
-        }        
-        .container-img-isotype{
-            margin-left: 5.5rem;            
         }
+        /* HEADER*/        
+        .container-img-isotype .encabezado-img {
+            margin-left: 3.5rem;            
+            
+        }
+        
         .bannerText p{
-           margin-left: 5rem;
+            color :white;
+           margin-left: 3.3rem;
         }
         .nav-link{
             color:white !important;
           }
-        ul{
+          ul{
             margin-left: 2.5rem;
-        }  
+          }
+          .containerFooter ul{
+            margin-left: 0; 
+            
+        } 
+        ul li p a{
+            color: white;
+        }           
+         
+        
+          
+        footer .footer-img{
+            margin-left: 4.5rem;            
+        }
+        .foot-bannerText p{
+            color :white; 
+            margin-left: 2.5rem;
+        }
     }
     @media screen and (min-width: 768px) {
         #container{
@@ -334,3 +355,4 @@
             color:white !important;
           }
     }
+
