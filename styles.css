@@ -78,6 +78,7 @@
           height: 214.5rem;        
           font-family: 'Rubik', sans-serif;
           margin-left: 0;
+          margin-right: 0;
       }
        .banner{
           /*FONDO*/
@@ -369,6 +370,8 @@
         #container{
             width:100%;
             outline: 1px solid blue;
+            margin-left: 0;
+            margin-right: 0;
         }
         .container-img-isotype{
             background-color: white;
