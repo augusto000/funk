@@ -222,8 +222,7 @@
         height: 100%;
         width: 320px;
         margin-left: -.5rem;
-        margin-right: 0;    
-        
+        margin-right: 0;            
       }
       ul li img{
         width: 320px;
@@ -250,7 +249,13 @@
  .text-cantainer p{
     margin: 3px;
     padding: 0;    
- } 
+    color:darkgray;  
+ }
+ .text-cantainer .nombre{
+  margin: 3px;
+  padding: 0;      
+  color: black;
+}
       .containerFooter{
           display: flex;
           flex-direction: column;
@@ -371,4 +376,3 @@
             color:white !important;
           }
     }
-
