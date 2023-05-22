@@ -333,7 +333,8 @@
     @media screen and (min-width: 413px) {
         #container{
             width:100%;
-            outline: 1px solid blue;
+            margin-right: 0;
+            margin-left: 0;            
         }
         /* HEADER*/        
         .container-img-isotype .encabezado-img {
@@ -368,16 +369,64 @@
     }
     @media screen and (min-width: 768px) {
         #container{
-            width:100%;
-            outline: 1px solid blue;
+            width:100%;            
             margin-left: 0;
             margin-right: 0;
-        }
-        .container-img-isotype{
-            background-color: white;
-        }
-        .nav-link{
+            height: 255.5rem;
+        }        
+      .container-img-isotype .encabezado-img{
+          margin-left: 13rem;          
+      }
+      .bannerText{ 
+        margin-left: 17.5rem;
+      }
+      .nav-link{
             color:white !important;
-          }
+      }
+      .cardsContainer{
+        width:100%;
+      }
+      .card{
+          margin-left: 8.5rem;
+          width: 100%;
+      }
+      .card img{
+            margin-left:.5rem;
+            width: 100%;
+      }
+      .containerFooter ul{
+         background-color: yellowgreen;
+        height: 400px;}
+      .containerFooter .cont-shop .a-shop{
+             font-size: 1rem;
+             color: red;             
+             margin-top: -1rem;
+      }
+      .containerFooter .cont-registrarse .a-registrarse{
+        font-size: 1rem;
+        color: red;
+ }
+ .containerFooter .cont-ingresar .a-ingresar{
+  width: 5rem;
+  font-size: 1rem;
+  color: red; 
+  
+}
+.containerFooter .cont-contacto .a-contacto{
+  font-size: 1rem;
+  color:red;
+}
+      .containerFooter .footer-img{
+        margin-left: 26rem;
+        width: 5.5rem;
+      }
+      .containerFooter{
+        height: 33rem;        
+      }
+      .foot-bannerText .rights{
+         width: 28rem;
+         margin-left: 4.3rem;
+         font-size: 1.5rem;
+         margin-bottom:1rem;
+      }
     }
-
