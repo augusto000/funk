@@ -430,13 +430,13 @@
           height: 35rem;          
       }
       .card .text-cantainer .funk-text{
-        margin-left: -6rem;        
+        margin-left: -8rem;        
       }
       .card .text-cantainer .nombre{
-        margin-left: -6rem;
+        margin-left: -8rem;
       }
       .card .text-cantainer .cuotas{
-        margin-left: -6rem;
+        margin-left: -8rem;
       }
       .card .texto-card{
             margin-left: 16rem;
@@ -512,3 +512,4 @@
          margin-bottom:0;
       }
     }
+
